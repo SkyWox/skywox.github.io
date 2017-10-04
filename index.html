@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <!-- Google Tag Manager
+    <!-- Google Tag Manager  // adds 2 seconds to page load - skip
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
@@ -35,10 +35,10 @@
     <meta name="theme-color" content="#ffffff">
   </head>
   <body>
-    <!-- Google Tag Manager (noscript) -->
+    <!-- Google Tag Manager (noscript)
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT4X4LD"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
+    End Google Tag Manager (noscript) -->
     <div class="site-wrapper">
       <div class="header-wrapper">
         <header>
@@ -67,9 +67,9 @@
           <h1>Projects</h1>
           <ul class="list group">
             <li data-key="table" class="list-selected">
-              <h3>Table</h3>
+              <h3>LottoFresh</h3>
               <p>
-                A reservation app built on Rails and React
+                A lottery number generator built on React, Express and MongoDB
               </p>
             </li>
             <li data-key="browser-game">
@@ -97,24 +97,22 @@
                 <div class="project-item-header">
                   <h3>Table</h3>
                   <div class="sources">
-                    <a target="_blank" href="https://github.com/RowiDont/Table">github</a>
-                    <a id="Table" target="_blank" href="http://www.getTable.top">live</a>
+                    <a target="_blank" href="https://github.com/skywox">github</a>
+                    <a id="Table" target="_blank" href="lotto.skywox.me">live</a>
                   </div>
                 </div>
-                <span>(Rails, React/Flux, JavaScript, CSS)</span>
+                <span>(React, Express, MongoDB)</span>
                 <p>
-                  <b>What is it? </b>A clone of OpenTable's web platform for restaurant search and reservations.
-                  Built from the ground up on a Rails backend and React frontend, using a Flux architecture.
+                  <b>What is it? </b>A lottery number generator using a state-ful React frontend
+                  with math handled on Express. Queries a MongoDB database to guarantee freshness.
                 </p>
                 <ul>
-                  <li>Implements a custom algorithm to avoid time conflicts and prevent double bookings</li>
-                  <li>Integrates AWS cloud storage to reduce overhead and allow for scale</li>
-                  <li>Searches in real-time with AJAX, delivering cross category results</li>
-                  <li>Deploys OmniAuth, lowering friction for new users by providing a seamless UX</li>
+                  <li>Allows for the addition or modification of any lottery from a single JSON</li>
+                  <li>Uses a dynamic MongoDB to ensure unique numbers are served to users/li>
                   <li>Minimizes database calls on the back end through SQL query optimization</li>
                 </ul>
                 <hr>
-                <video src="video/TableCast.webm" autoplay autostart muted controls loop poster="images/table.jpg"></video>
+                <img src="images/powerball.jpg"></img>
               </div>
             </li>
             <li data-key="browser-game" class="project-item hidden">
@@ -203,7 +201,7 @@
 
     </div>
 
-
+    <!-- Navigation script -->
     <script src="js/site.js"></script>
   </body>
 </html>
