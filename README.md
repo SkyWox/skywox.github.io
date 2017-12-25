@@ -1,1 +1,1 @@
-My personal website.
+My personal website, hosted at http://skywox.me
