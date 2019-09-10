@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-  <!-- Google Tag Manager  // adds 2 seconds to page load - skip
+  <head>
+    <!-- Google Tag Manager  // adds 2 seconds to page load - skip
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-MT4X4LD');</script> -->
-  <!-- End Google Tag Manager -->
-  <!-- Global Site Tag (gtag.js) - Google Analytics
+    <!-- End Google Tag Manager -->
+    <!-- Global Site Tag (gtag.js) - Google Analytics
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106792087-1"></script>
     <script>
     window.dataLayer = window.dataLayer || []
@@ -21,274 +20,73 @@ gtag('js', new Date())
 gtag('config', 'UA-106792087-1')
 </script>
     GTag -->
-  <meta charset="utf-8">
-  <title>Skylar Wilcox</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
-  <link href='font.css' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="css/style.css" media="screen" title="no title" charset="utf-8">
-  <link rel="stylesheet" href="css/font-awesome.min.css">
-  <script src="js/jquery-2.2.0.min.js"></script>
+    <meta charset="utf-8" />
+    <title>Skylar Wilcox</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Oxygen:400,300,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="font.css" rel="stylesheet" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="css/style.css"
+      media="screen"
+      title="no title"
+      charset="utf-8"
+    />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <script src="js/jquery-2.2.0.min.js"></script>
 
-  <link rel="icon" type="image/png" href="/images/favicon.ico">
-  <link rel="manifest" href="/manifest.json">
-  <meta name="theme-color" content="#ffffff">
-</head>
+    <link rel="icon" type="image/png" href="/images/favicon.ico" />
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#000000" />
+  </head>
 
-<body>
-  <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
-  <!-- Google Tag Manager (noscript)
+  <body>
+    <link
+      href="https://fonts.googleapis.com/css?family=Oxygen:400,300,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- Google Tag Manager (noscript)
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT4X4LD"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     End Google Tag Manager (noscript) -->
-  <div class="site-wrapper">
-    <div class="header-wrapper">
-      <header>
-        <img src="images/author.jpg" alt="profile" />
-        <!-- Name -->
-        <h1>Skylar Wilcox PMP</h1>
-        <!-- Headline -->
-        <h2>Project manager + developer interested in web frameworks and data science</h2>
-        <div class="social">
-          <a target="_blank" href="http://github.com/skywox" class="fa fa-github fa-2x" aria-hidden="true" alt="GitHub">
-            <span class="label"></span>
-          </a>
-          <a target="_blank" href="https://www.linkedin.com/in/skylarwilcox" class="fa fa-linkedin fa-2x" alt="LinkedIn">
-            <span class="label"></span>
-          </a>
-          <a target="_blank" href="mailto:skylardwilcox@gmail.com" class="fa fa-envelope fa-2x" alt="Email">
-            <span class="label"></span>
-          </a>
-          <!-- Resume link -->
-          <br>
-          <a id="resume" target="_blank" href="docs/skylar_wilcox_resume.pdf">
-            <em>Download Resume (PDF)</em>
-          </a>
-        </div>
-      </header>
-    </div>
-
-    <!-- For navigation to work, all data-keys must be the same in
-      both the #list li, and the #project-content li. -->
-    <div class="content">
-      <div class="projects">
-        <h1>Projects</h1>
-        <ul class="list group">
-          <li data-key="lotto" class="list-selected">
-            <h3>MintWins</h3>
-            <p>
-              Lottery ticket manager built on Express + React with Custom APIs
-            </p>
-          </li>
-          <li data-key="domainhack">
-            <h3>Domain Hack</h3>
-            <p>
-              Intelligent domain selection with availability status
-            </p>
-          </li>
-          <li data-key="mobile">
-            <h3>iOS/Android</h3>
-            <p>
-              Native apps deployed to iOS and Android
-            </p>
-          </li>
-          <li data-key="exxon">
-            <h3>Project Management</h3>
-            <p>
-              Over 3 years of $MM project management, certified PMP
-            </p>
-        </ul>
-
-        <ul class="project-content">
-          <li data-key="lotto" class="project-item">
-            <div class="info">
-              <div class="project-item-header">
-                <h3>MintWins</h3>
-                <div class="sources">
-                  <a target="_blank" href="https://github.com/skywox/lottery">github</a>
-                  <a id="MintWins" target="_blank" href="https://www.mintwins.com">live</a>
-                </div>
-              </div>
-              <span>(React Router, Express, PostgreSQL)</span>
-              <p>
-                <b>What is it? </b>A lottery ticket manager that automatically notifies you if your tickets won. React Router
-                frontend, Express and Sequelize/PostgreSQL backend. Backend runs cronjobs, custom and external APIs, and
-                DB management.
-              </p>
-              <ul>
-                <li>Instantly reauthenticates users through token-based middleware</li>
-                <li>Promise queueing of user messaging. Custom HTML emails generated for each user</li>
-                <li>Touchless user messaging and lottery drawing updates managed by CronJobs</li>
-                <li>Minimizes tech debt for adding new lotteries with REST APIs and React components</li>
-              </ul>
-              <hr>
-              <a href="#openModal">
-                <img src="images/Mint_Wins_Architecture.svg"></img>
-              </a>
-
-              <div id="openModal" class="modalDialog">
-                <div>
-                  <a href="#close" title="Close" class="close">X</a>
-                  <img src="images/Mint_Wins_Architecture.svg"></img>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li data-key="domainhack" class="project-item hidden">
-            <div class="info">
-              <div class="project-item-header">
-                <h3>DomainHack</h3>
-                <div class="sources">
-                  <a target="_blank" href="https://github.com/SkyWox/domainhack">github</a>
-                  <a target="_blank" href="https://domain.skywox.me">live</a>
-                </div>
-              </div>
-              <span>(React, Express, External APIs)</span>
-              <p>
-                <b>What is it? </b>A place to come up with "hacked" domain names that creatively use your brand name. Uses external
-                APIs to check if the name is available and routes you to the best registrar which also pays the highest commission.
-              </p>
-              <ul>
-                <li>Continuously optimizes response time with throttling and timeouts on API requests</li>
-                <li>Uses CSRF cookies to prevent abuse of the custom API by third parties</li>
-                <li>Maximizes referral bounty by picking referral partners and generating links in real-time</li>
-                <li>Increases user utility by sorting results with a custom fuzzy logic algorithm</li>
-              </ul>
-              <hr>
-            </div>
-          </li>
-          <li data-key="mobile" class="project-item hidden">
-            <div class="info">
-              <div class="project-item-header">
-                <h3>iOS/Android</h3>
-                <div class="sources">
-                  <a id="Flutter" target="_blank" href="https://github.com/skywox/ampersand">github (Flutter)</a>
-                  <a id="ReactNative" target="_blank" href="https://github.com/skywox/blackbird">github (React Native)</a>
-                </div>
-              </div>
-              <span>(React Native, Flutter, Dart)</span>
-              <p>
-                <b>What are they? </b>Apps developed in 6-8 hours without previous experience in the language
-              </p>
-              <ul>
-                <li>Both projects were developed with no previous experience of the language/framework</li>
-                <li>Read more on their GitHub pages!</li>
-                <li>The apps clone part of a published mobile app:</li>
-                <li>
-                  <a target="_blank" href="https://itunes.apple.com/us/app/ampersand-reader/id1321664540?mt=8"> Ampersand on iOS</a> (Flutter) and
-                  <a target="_blank" href="https://play.google.com/store/apps/details?id=com.blackbirdapp&hl=en"> Blackbird on Android</a> (React Native)
-                </li>
-              </ul>
-              <hr>
-              <table>
-                <tr>
-                  <td>
-                    <iframe src="https://appetize.io/embed/2afcujrh0215k2rqq787b1r2e4?device=iphone6s&scale=50&autoplay=false&orientation=portrait&deviceColor=white"
-                      width="208px" height="435px" frameborder="0" scrolling="no"></iframe>
-                  </td>
-                  <td>
-                    <iframe src="https://appetize.io/embed/njv1hdhvutwb97ftcpp0dcymtw?device=nexus5&scale=50&autoplay=false&orientation=portrait&deviceColor=white"
-                      width="200px" height="398px" frameborder="0" scrolling="no"></iframe>
-                  </td>
-                </tr>
-                <tr>
-                  <td style="text-align:center">Developed in 6 hours</td>
-                  <td style="text-align:center">Developed in 8 hours</td>
-                </tr>
-              </table>
-
-
-
-
-
-            </div>
-          </li>
-          <li data-key="exxon" class="project-item hidden">
-            <div class="info">
-              <div class="project-item-header">
-                <h3>Project Management</h3>
-              </div>
-              <span>(Project Management, Engineering)</span>
-              <p>
-                <b>Area Engineer and Project Manager</b>
-                <br/>ExxonMobil • Baton Rouge, LA • 2015-2016
-              </p>
-              <ul>
-                <li>Developed GUI for quality system to drive operator ownership. Resulted in no customer complaints during tenure,
-                  allowing business to repeatedly raise prices</li>
-                <li>Managed 16 projects worth over $25M. Led diverse engineering teams through execution</li>
-              </ul>
-              <p>
-                <b>Site Engineer and Project Coordinator </b>
-                <br/>ExxonMobil • Baton Rouge, LA • 2013-2015
-              </p>
-              <ul>
-                <li>
-                  Implemented real-time energy efficiency metrics for operators in a lightweight GUI client. Stewarded performance to VP-level
-                  management.
-                </li>
-                <li>Introduced operations monitoring software on the site’s Distributed System Architecture. Group lead for junior
-                  engineers commissioning the platform</li>
-              </ul>
-              <p>
-                <b>Project Management Professional (PMP)</b>
-                <br/>Over 4,500 hours of project management experience
-              </p>
-            </div>
-          </li>
-
-        </ul>
+    <div class="site-wrapper">
+      <div class="header-wrapper">
+        <header>
+          <img src="images/author.jpg" alt="profile" />
+          <!-- Name -->
+          <h1>Skylar Wilcox, PMP</h1>
+          <!-- Headline -->
+          <h2>Software - Oculus / Facebook</h2>
+          <div class="social">
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/skylarwilcox"
+              class="fa fa-linkedin fa-2x"
+              alt="LinkedIn"
+            >
+              <span class="label"></span>
+            </a>
+          </div>
+        </header>
       </div>
+
+      <hr />
+
+      <footer>
+        Copyright © 2016 -
+        <script type="text/javascript">
+          document.write(new Date().getFullYear())
+        </script>
+        Skylar Wilcox. All Rights Reserved.
+      </footer>
     </div>
 
-    <hr>
-
-    <div class="skills">
-      <ul class="logos">
-        <li class="logo" title="NodeJS">
-          <img src="images/logos/nodejs.svg" alt="NodeJS">
-        </li>
-        <li class="logo" title="React">
-          <img src="images/logos/react.svg" alt="React">
-        </li>
-        <li class="logo" title="React Router">
-          <img src="images/logos/react-router.png" alt="React Router">
-        </li>
-        <li class="logo" title="PostgreSQL">
-          <img src="images/logos/postgresql.png" alt="JQuery">
-        </li>
-        <li class="logo" title="Python">
-          <img src="images/logos/python.png" alt="Python">
-        </li>
-        <li class="logo" title="Flutter">
-          <img src="images/logos/flutter.svg" alt="Flutter">
-        </li>
-        <li class="logo" title="HTML5">
-          <img src="images/logos/HTML5.png" alt="HTML5">
-        </li>
-        <li class="logo" title="CSS3">
-          <img src="images/logos/css.png" alt="CSS3">
-        </li>
-        <li class="logo" title="PMI">
-          <img src="images/logos/PMI.jpg" alt="PMI">
-        </li>
-      </ul>
-    </div>
-
-    <hr>
-
-    <footer>
-      Copyright © 2016 -
-      <script type="text/javascript">
-        document.write(new Date().getFullYear());
-      </script>
-      Skylar Wilcox. All Rights Reserved.
-    </footer>
-
-  </div>
-
-  <!-- Navigation script -->
-  <script src="js/site.js"></script>
-</body>
-
+    <!-- Navigation script -->
+    <script src="js/site.js"></script>
+  </body>
 </html>
